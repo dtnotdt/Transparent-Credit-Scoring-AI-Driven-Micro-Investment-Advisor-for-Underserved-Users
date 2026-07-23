@@ -359,6 +359,12 @@ docker compose up --build
 - **DevOps & Integration:** Configured Docker containerization, PDF generation pipeline, and project documentation.
 
 ---
+Member Name:
+Dhitee Shah
+Divya Chaudhari
+Vedika Pradhan
+Nishi Mewada
+Bhumi Patel
 
 ## Educational Disclaimer
 
