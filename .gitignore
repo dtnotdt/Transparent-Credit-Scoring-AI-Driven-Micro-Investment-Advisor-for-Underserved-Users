@@ -1,0 +1,54 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Node / Frontend
+node_modules/
+dist/
+.dist/
+*.local
+frontend/dist/
+frontend/.vite/
+
+# ML artifacts (included in repository for instant out-of-the-box evaluation)
+# ml/models/*.joblib
+# ml/models/*.pkl
+
+# Database
+*.db
+*.sqlite3
+database/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# PDF / reports (generated at runtime)
+backend/reports/*.pdf

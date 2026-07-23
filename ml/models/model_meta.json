@@ -1,0 +1,48 @@
+{
+  "feature_cols": [
+    "recharge_frequency",
+    "bill_payment_regularity",
+    "upi_transaction_count",
+    "wallet_usage_score",
+    "monthly_savings_pct",
+    "ecommerce_frequency",
+    "bank_balance_stability"
+  ],
+  "target_col": "credit_score",
+  "score_range": [
+    300,
+    900
+  ],
+  "model_type": "RandomForestRegressor",
+  "baseline_type": "Ridge",
+  "rf_metrics": {
+    "mae": 21.5,
+    "rmse": 25.9,
+    "r2": 0.9445
+  },
+  "ridge_metrics": {
+    "mae": 19.44,
+    "rmse": 23.5,
+    "r2": 0.9543
+  },
+  "cv_r2_mean": 0.9423,
+  "cv_r2_std": 0.003,
+  "feature_importances": {
+    "recharge_frequency": 0.3766,
+    "bill_payment_regularity": 0.1773,
+    "upi_transaction_count": 0.316,
+    "wallet_usage_score": 0.0153,
+    "monthly_savings_pct": 0.0659,
+    "ecommerce_frequency": 0.019,
+    "bank_balance_stability": 0.0299
+  },
+  "shap_importance": {
+    "recharge_frequency": 30.5731,
+    "bill_payment_regularity": 20.4212,
+    "upi_transaction_count": 29.8059,
+    "wallet_usage_score": 4.5908,
+    "monthly_savings_pct": 10.6175,
+    "ecommerce_frequency": 3.1923,
+    "bank_balance_stability": 7.7227
+  }
+}
